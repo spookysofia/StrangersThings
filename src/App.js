@@ -1,21 +1,21 @@
-import logo from './logo.svg';
+import lotr from './lotr.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={lotr} className="lotr-ring" alt="lord of the rings" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome Adventurer
         </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          className="register-link"
+          href="./components/Register.js"
+          target=""
           rel="noopener noreferrer"
         >
-          Learn React
+          Register/Login
         </a>
       </header>
     </div>
